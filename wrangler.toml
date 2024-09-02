@@ -1,7 +1,7 @@
-name = "orange-meets"
+name = "mosaic-arg-meets"
 # https://developers.cloudflare.com/workers/platform/compatibility-dates
 compatibility_date = "2024-06-20"
-account_id = "a67e14daa5f8dceeb91fe5449ba496eb"
+account_id = "6cabfa276d62dffe20a629f1467dcc67"
 main = "./build/index.js"
 compatibility_flags = ["nodejs_compat"]
 
@@ -9,7 +9,7 @@ compatibility_flags = ["nodejs_compat"]
   bucket = "./public"
 
 [vars]
-CALLS_APP_ID = "f0ea263009299383d09d44b9fad5316c"
+CALLS_APP_ID = "b073db9440b13f0effde2ff375c23bf8"
 
 [durable_objects]
  bindings = [
