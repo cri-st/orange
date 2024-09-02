@@ -21,7 +21,7 @@ export const action = async ({ request }: ActionFunctionArgs) => {
 export default function SetUsername() {
 	return (
 		<div className="grid h-full gap-4 place-content-center">
-			<h1 className="text-3xl font-bold">🍊 Orange Meets</h1>
+			<h1 className="text-3xl font-bold"><img src="https://freight.cargo.site/w/3210/i/ea71c6e0f2bb7f7642017b056153c527f0b751b812c25500c85bf222cb59fde2/2021_Logo_Master_White.png" alt="Mosaic Logo" width="150px" height="50px" /> 🇦🇷</h1>
 			<Form className="flex items-end gap-4" method="post">
 				<div className="grid gap-3">
 					<label htmlFor="username">Enter your display name</label>

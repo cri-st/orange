@@ -35,7 +35,7 @@ export default function Index() {
 			<div className="flex-1"></div>
 			<div className="space-y-6 sm:min-w-96">
 				<div>
-					<h1 className="text-3xl font-bold">🍊 Orange Meets</h1>
+					<h1 className="text-3xl font-bold"><img src="https://freight.cargo.site/w/3210/i/ea71c6e0f2bb7f7642017b056153c527f0b751b812c25500c85bf222cb59fde2/2021_Logo_Master_White.png" alt="Mosaic Logo" width="150px" height="50px" /> 🇦🇷</h1>
 					<div className="flex items-center justify-between gap-3">
 						<p className="text-sm text-zinc-500 dark:text-zinc-400">
 							Logged in as {data?.displayName}
